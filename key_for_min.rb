@@ -7,9 +7,6 @@ def key_for_min_value(name_hash)
     values << value
   end
 
-  
-
-  
   if values.length < 1 
     return NIL
   else
