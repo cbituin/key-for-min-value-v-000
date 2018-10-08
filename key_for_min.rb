@@ -11,7 +11,7 @@ def key_for_min_value(name_hash)
 
   
   if values.length < 1 
-    NIL
+    return NIL
   else
     until values.length === 1
     values.delete_at(values.index(values.max))  
